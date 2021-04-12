@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+  <div class="sidebar">
+  <a href="#home">Home</a>
+  <a href="#services">Images</a>
+  <a href="#contact">Contact</a>
+</div>
+
+        <div id="main" class="main">
+            <header id="header" calss="header">
+                <h1 class="text">Image Container App</h1>
+            </header>
+            <div id="photoGallery" class="photo-gallery">
+                <div id="image-container" class="flex flex-cols">
+                    <button id="addImage" type="submit"class="text-xl border border-green-200 rounded w-36 h-10 ">Add Image</button>
+                    <input type="text" placeholder="Image url" id="imageUrl" class="url-input  ">
+                    
+
+
+                </div>
+
+            </div>
+            <div id="photoGaleryDev" class="grid grid-cols-3 gap-2 h-full">
+
+
+            </div>
+
+        </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
